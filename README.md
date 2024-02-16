@@ -5,6 +5,7 @@ The attached files are organized in the following structure:
 In the folder "classicalPlanning" there are 
 - the classes subfolder containing the planner implementation classes beloging to the custom heuristic function
 - the pddl subfolder containing the domain formulation and domain formulation files problems of the second task.
+
 In the folder "plansys2_project" there are
 - the CMakeLists.txt file and the package.xml file that reports dependencies
 - the subfolder src that reports C++ files that perform fake actions
