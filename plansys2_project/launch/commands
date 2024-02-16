@@ -1,0 +1,77 @@
+set instance DEP location
+set instance LOC1 location
+set instance LOC2 location
+
+set instance B1 box
+set instance B2 box
+set instance B3 box
+set instance B4 box
+set instance B5 box
+
+set instance P1 person
+set instance P2 person
+set instance P3 person
+
+set instance A agent
+set instance VEIC vehicle
+
+set instance PL1 place
+set instance PL2 place
+set instance PL3 place
+set instance PL4 place
+
+set instance DRUGS content
+set instance FOOD content
+set instance TOOLS content
+
+set function (= (weight DRUGS) 1)
+set function (= (weight FOOD) 2)
+set function (= (weight TOOLS) 3)
+
+set function (= ( boxweight B1) 0)
+set function (= ( boxweight B2) 0)
+set function (= ( boxweight B3) 0)
+set function (= ( boxweight B4) 0)
+set function (= ( boxweight B5) 0)
+
+set function (= ( vehicleweight VEIC) 1)
+set function (= ( pathcost A) 0)
+
+set predicate (at B1 DEP)
+set predicate (at B2 DEP)
+set predicate (at B3 DEP)
+set predicate (at B4 DEP)
+set predicate (at B5 DEP)
+
+set predicate (at A DEP)
+set predicate (at VEIC DEP)
+
+set predicate (agentfree A)
+
+set predicate (at FOOD DEP)
+set predicate (at DRUGS DEP)
+set predicate (at TOOLS DEP)
+set predicate (at P1 LOC1)
+set predicate (at P2 LOC1)
+set predicate (at P3 LOC2)
+
+set predicate (needcontent FOOD P1)
+set predicate (needcontent DRUGS P1)
+set predicate (needcontent DRUGS P2)
+set predicate (needcontent FOOD P3)
+
+set predicate (empty B1)
+set predicate (empty B2)
+set predicate (empty B3)
+set predicate (empty B4)
+set predicate (empty B5)
+
+set predicate (placeavailable PL1)
+set predicate (placeavailable PL2)
+set predicate (placeavailable PL3)
+set predicate (placeavailable PL4)
+
+set predicate (placevehicle PL1 VEIC)
+set predicate (placevehicle PL2 VEIC)
+set predicate (placevehicle PL3 VEIC)
+set predicate (placevehicle PL4 VEIC)
