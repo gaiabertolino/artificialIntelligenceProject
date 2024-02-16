@@ -4,7 +4,7 @@ The project models a problem domain for a system based on autonomous agents to w
 The attached files are organized in the following structure:
 
 In the folder "classicalPlanning" there are 
-- the classes subfolder containing the planner implementation classes beloging to the custom heuristic function
+- the classes subfolder containing the planner implementation class and the custom heuristic function class
 - the pddl subfolder containing the domain formulation and domain formulation files problems of the second task.
 
 In the folder "plansys2_project" there are
