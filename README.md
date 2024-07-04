@@ -1,5 +1,7 @@
 # artificialIntelligenceProject
 
+This project was developed as part of a degree coursework exam for the course of Artificial Intelligence during the first year of the Master's degree in Computer Engineering.
+
 The project models a problem domain for a system based on autonomous agents to which classic planning, time planning and robotic planning are then applied. In particular, the scenario represents a problem of logistic organization in which a number of injured people must be reached by emergency services, which can transport various objects.
 The attached files are organized in the following structure:
 
