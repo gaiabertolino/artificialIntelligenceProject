@@ -13,14 +13,15 @@ This project was developed as part of a degree coursework exam for the *Artifici
 - **Scenario**: Simulates emergency services reaching injured individuals with varying transport requirements.  
 
 ### Project Structure  
-- **classicalPlanning**:  
+- **classicalPlanning folder**:  
   - *classes*: Contains the planner implementation and a custom heuristic function.  
   - *pddl*: Includes domain and problem formulations for classic planning tasks.  
-- **plansys2_project**:  
+- **plansys2_project folder**:  
   - *CMakeLists.txt* and *package.xml*: Define dependencies and build configurations.  
   - *src*: Contains C++ files implementing simulated actions.  
   - *launch*: Holds the launch commands and scripts (`plansys2_project_launch.py`).  
-  - *pddl*: Contains the domain and problem definitions for durative actions, along with plans generated using **LPG-TD**.  
+  - *pddl*: Contains the domain and problem definitions for durative actions, along with plans generated using **LPG-TD**.
+- **Report (Italian)**: Detailed project report explaining the methodology, implementation, and results.
 
 
 
