@@ -1,16 +1,26 @@
-# artificialIntelligenceProject
+# Logistic Planning for Emergency Services  
 
-This project was developed as part of a degree coursework exam for the course of Artificial Intelligence during the first year of the Master's degree in Computer Engineering.
+#### Keywords  
+`Logistic Planning`, `Emergency Services`, `Agent-Based System`, `Classic Planning`, `Temporal Planning`, `Robotic Planning`, `PDDL`, `LPG-TD`, `Autonomous Agents`, `Artificial Intelligence`.  
 
-The project models a problem domain for a system based on autonomous agents to which classic planning, time planning and robotic planning are then applied. In particular, the scenario represents a problem of logistic organization in which a number of injured people must be reached by emergency services, which can transport various objects.
-The attached files are organized in the following structure:
+This project models and implements a planning system for an agent-based approach to solve a logistics problem for emergency services. The objective is to design an AI system capable of **classic planning**, **temporal planning**, and **robotic planning** for autonomous agents. The scenario involves coordinating emergency services to reach injured individuals while managing the transportation of various objects, optimizing logistics under dynamic constraints.  
 
-In the folder "classicalPlanning" there are 
-- the classes subfolder containing the planner implementation class and the custom heuristic function class
-- the pddl subfolder containing the domain formulation and domain formulation files problems of the second task.
+This project was developed as part of a degree coursework exam for the *Artificial Intelligence* course during the first year of the Master's degree in Computer Engineering.  
 
-In the folder "plansys2_project" there are
-- the CMakeLists.txt file and the package.xml file that reports dependencies
-- the subfolder src that reports C++ files that perform fake actions
-- the launch subfolder that contains the commands file and the launch file plansys2_project_launch.py
-- the pddl subfolder which contains the domain and the problem with durative actions and the plan obtained from the application of LPG-TD
+### Key Features  
+- **Agent-Based System**: Utilizes autonomous agents to solve logistics challenges.  
+- **Planning Approaches**: Includes classic planning, temporal planning, and robotic planning techniques.  
+- **Scenario**: Simulates emergency services reaching injured individuals with varying transport requirements.  
+
+### Project Structure  
+- **classicalPlanning**:  
+  - *classes*: Contains the planner implementation and a custom heuristic function.  
+  - *pddl*: Includes domain and problem formulations for classic planning tasks.  
+- **plansys2_project**:  
+  - *CMakeLists.txt* and *package.xml*: Define dependencies and build configurations.  
+  - *src*: Contains C++ files implementing simulated actions.  
+  - *launch*: Holds the launch commands and scripts (`plansys2_project_launch.py`).  
+  - *pddl*: Contains the domain and problem definitions for durative actions, along with plans generated using **LPG-TD**.  
+
+
+
